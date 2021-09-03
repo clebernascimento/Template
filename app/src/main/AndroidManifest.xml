@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Template">
         <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.splash.SplashActivity"
             android:exported="true"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustResize">
@@ -23,6 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
